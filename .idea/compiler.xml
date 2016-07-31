@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="annotation" />
+        <module name="tiny-frame" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="annotation" target="1.5" />
-      <module name="study" target="1.5" />
+      <module name="study_parent" target="1.5" />
+      <module name="tiny-frame" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
