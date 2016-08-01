@@ -14,7 +14,7 @@ public abstract class AbstractBeanFacotry implements BeanFactory {
 
 
     public Object getBean(String name) {
-        return beanDefinitionMap.get(name);
+        return beanDefinitionMap.get(name).getBean();
     }
 
     public void registerBeanDefinition(String name, BeanDefinition beanDefinition) throws Exception {
