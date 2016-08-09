@@ -4,7 +4,6 @@ import org.aspectj.weaver.tools.PointcutExpression;
 import org.aspectj.weaver.tools.PointcutParser;
 import org.aspectj.weaver.tools.PointcutPrimitive;
 import org.aspectj.weaver.tools.ShadowMatch;
-
 import java.lang.reflect.Method;
 import java.util.HashSet;
 import java.util.Set;
@@ -58,23 +57,19 @@ public class AspectJExpressionPointcut implements Pointcut, ClassFilter, MethodM
 		this.expression = expression;
 	}
 
-	@Override
 	public ClassFilter getClassFilter() {
 		return this;
 	}
 
-	@Override
 	public MethodMatcher getMethodMatcher() {
 		return this;
 	}
 
-	@Override
 	public boolean matches(Class targetClass) {
 		checkReadyToMatch();
 		return pointcutExpression.couldMatchJoinPointsInType(targetClass);
 	}
 
-	@Override
 	public boolean matches(Method method, Class targetClass) {
 		checkReadyToMatch();
 		ShadowMatch shadowMatch = pointcutExpression.matchesMethodExecution(method);
@@ -86,4 +81,5 @@ public class AspectJExpressionPointcut implements Pointcut, ClassFilter, MethodM
 		// TODO:其他情况不判断了！见org.springframework.aop.aspectj.RuntimeTestWalker
 		return false;
 	}
+
 }
