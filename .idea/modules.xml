@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
+=======
+>>>>>>> 7b721244ee1a7739d48e1ccc7feb71987b626032
       <module fileurl="file://$PROJECT_DIR$/study_parent.iml" filepath="$PROJECT_DIR$/study_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/tiny-frame/tiny-frame.iml" filepath="$PROJECT_DIR$/tiny-frame/tiny-frame.iml" />
     </modules>
