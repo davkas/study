@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-<<<<<<< HEAD
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -184,10 +186,16 @@
             <id>Properties Files</id>
           </State>
           <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
             <id>SQL</id>
           </State>
           <State>
             <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
           </State>
           <State>
             <id>TestNGJava</id>
@@ -254,8 +262,4 @@
       </state>
     </states>
   </component>
-=======
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" assert-keyword="false" jdk-15="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
->>>>>>> 7b721244ee1a7739d48e1ccc7feb71987b626032
 </project>
