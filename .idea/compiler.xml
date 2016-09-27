@@ -23,12 +23,15 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="jvm" />
+        <module name="mockserver" />
         <module name="tiny-frame" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="annotation" target="1.5" />
+      <module name="innerClass" target="1.5" />
       <module name="jvm" target="1.5" />
+      <module name="mockserver" target="1.5" />
       <module name="study_parent" target="1.5" />
       <module name="tiny-frame" target="1.5" />
     </bytecodeTargetLevel>

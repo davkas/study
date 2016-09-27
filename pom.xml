@@ -11,6 +11,7 @@
     <modules>
         <module>annotation</module>
         <module>tiny-frame</module>
+        <module>mockserver</module>
     </modules>
 
 

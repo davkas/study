@@ -4,9 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/inneerClass/inneerClass.iml" filepath="$PROJECT_DIR$/inneerClass/inneerClass.iml" />
-      <module fileurl="file://$PROJECT_DIR$/innerClass.iml" filepath="$PROJECT_DIR$/innerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/study_parent.iml" filepath="$PROJECT_DIR$/study_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mockserver/mockserver.iml" filepath="$PROJECT_DIR$/mockserver/mockserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/tiny-frame/tiny-frame.iml" filepath="$PROJECT_DIR$/tiny-frame/tiny-frame.iml" />
     </modules>
   </component>
